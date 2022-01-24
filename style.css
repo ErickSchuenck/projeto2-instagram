@@ -1,0 +1,395 @@
+a:visited{
+    color:  #000000;
+    text-decoration: none;
+}
+.seguir a{
+    color: #139EF2;
+}
+span{
+    font-weight: bold;
+}
+
+body {
+    background-color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1{
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+    font-weight: bold;
+    
+}
+
+.center_top{
+    display: flex;
+    justify-content: center;
+}
+
+.whole{
+    display: flex;
+    justify-content: center;   
+}
+
+
+.top{
+    height: 54px;
+    width: 100%;
+    background-color: #fafafa;
+    border: 1px solid #DBDBDB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    z-index: 1;
+}
+
+
+.logo{
+    border-right: 1px solid #DBDBDB;
+    padding-right: 11px;
+    height: 19.25px;
+    width: 19.25px;
+    margin-left: 216.37px;
+    font-size: 20px;
+}
+.arrow{
+    margin-left: 214px;
+    font-size: 20px;
+}
+.compass{
+    margin-left: 24.81px;
+    font-size: 20px;
+}
+.heart{
+    margin-left: 24.81px;
+    font-size: 20px;
+}
+.person{
+    margin-left: 24.81px;
+    font-size: 20px;
+}
+
+.cursive_logo{
+    height: 29px;
+    width: 103px;
+    margin-left: 10px;
+}
+
+.search_bar{
+    margin-left: 214px;
+    height: 26px;
+    width: 215px;
+    left: 575px;
+    top: 14px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+.search_bar ::placeholder{
+    text-align: center;
+    color: #DBDBDB;
+    border-color: #DBDBDB;
+}
+input{
+    padding-left: 24px;
+    padding-right: 24px;
+    text-align: center;
+}
+.person{
+    width: 22px;
+    height: 22px;
+    left: 1128px;
+    top: 16px;
+    margin-right: 218.75px;
+}
+
+
+.bottom{
+    display: flex;
+    flex-wrap: wrap;
+}
+.stories{
+    display: flex;
+    align-items: center;
+    margin-top: 88px;
+    margin-bottom: 24px;
+    height: 118px;
+    width: 614px;
+    border-radius: 3px;
+    border: 1px solid #dbdbdb;
+    overflow: hidden;
+    position: relative;
+}
+.stories ion-icon{
+    position: absolute;
+    left: 579px;
+    z-index: 4;
+    color: #ffffff;
+    font-size: 26px;
+}
+.profiles_decoy{
+    margin-top: 34px;
+    height: 373px;
+    width: 293px;
+}
+.profiles{
+    margin-left: 24px;
+    margin-top: 24px;
+    height: 373px;
+    width: 293px;
+    position: fixed;
+    top: 88px;
+}
+.profile_picture{
+    height: 56px;
+    width: 56px;
+    left: 858px;
+    top: 111px;
+    border-radius: 28px;    
+}
+.my_profile{
+    display: flex;
+}
+.my_profile_nick{
+    margin-left: 17px;
+    margin-top: 8px;
+}
+.my_name{
+    margin-left: 17px;
+    margin-top: 8px;
+    color: grey;
+}
+
+.suggestions{
+    margin-top: 24px;
+    display: flex;
+    justify-content: space-between;
+}
+.suggestions_for_you{
+    color: grey;
+}
+
+.suggestions_container img{
+    height: 32px;
+    width: 32px;
+    border-radius: 16px;
+}
+
+.suggestions_container{
+    display: flex;
+    margin-bottom: 16px;
+}
+.profile_suggestions{
+    margin-top: 17px;
+}
+
+.segue_voce{
+    display: flex;
+    color: grey;
+    margin-bottom: 6px;
+    margin-left: 11px;
+    margin-top: 0px;
+    font-size: 12px;
+
+}
+.perfil_segue_voce{
+    font-size: 14px;
+    display: flex;
+    margin-bottom: 6px;
+    margin-left: 11px;
+}
+
+.suggestions_text{
+    display: flex;
+    flex-direction: column;
+}
+
+.inst_info{
+    color: grey;
+    font-size: 12px;
+}
+.inst_c{
+    color: grey;
+    margin-top: 18px;
+    font-size: 11px;
+}
+
+.seguir{
+    right: 0px;
+    position: absolute;
+    font-size: 12px;
+    color: #139EF2;
+    margin-top: 4px;
+}
+.post{
+    height: 749px;
+    width: 611px;
+    border-radius: 3px;
+    border: solid 1px #DBDBDB;
+    margin-bottom: 24px;
+}
+.post_pic{
+    height: 612px;
+    width: 612px;
+    left: 216px;
+    border-radius: 0px;    
+}
+
+.space0{
+    height: 54px;
+    width: 1366px;
+    
+}
+
+.space2{
+    height: 24px;
+}
+
+.story_boxes{
+    height: 85px;
+    width: 66px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 34px;
+    position: relative;
+}
+
+.story_boxes_circle{
+    height: 56px;
+    width: 56px;
+    left: 238px;
+    top: 111px;
+    border-radius: 28px;
+    background-color: wheat;
+}
+
+.story_owner{
+    margin-top: 5px;
+    height: 19px;
+    width: 58px;
+    border-radius: nullpx;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 65px;
+}
+
+.stories_background {
+    height: 66px;
+    width: 66px;    
+    border-radius: 33px;
+    position: absolute;
+}
+.stories_profile_picture {
+    margin-left: -28px;
+    top: 5px;
+    height: 56px;
+    width: 56px;
+    border-radius: 28px;
+    position: absolute;
+}
+.post_top{
+    
+    height: 61px;
+    width: 613px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #DBDBDB;
+
+}
+.post_little_pic{
+    width: 32px;
+    height: 32px;
+}
+
+.post_profile_picture {
+    margin-left: 17px;
+    height: 32px;
+    width: 32px;
+    border-radius: 28px;
+}
+
+.post_username{
+    margin-left: 34px;
+}
+.tree_dots{
+    margin-left: 463px;
+    margin-top: -3px;
+}
+
+.post_bot{
+    height: 76px;
+}
+
+.little_icons{
+    font-size: 20px;
+    margin-top: 5px;
+    margin-left: 17.75px;
+    margin-bottom: 13.44px;
+}
+
+.post_bot_likes{
+    display: flex;
+    margin-left: 17px;
+    
+}
+.likes_little_pic{
+    margin-top: -10px;
+}
+
+.post_icons{
+    display: flex;
+}
+.post_interactions{
+    margin-top: -6.7px;
+    margin-left: 5px;
+}
+
+.likes_profile_picture{
+    height: 20px;
+    width: 20px;
+    left: 160px;
+    top: 1754px;
+    border-radius: 10px;
+}
+.inferior_bar{
+    height: 54px;
+    width: 100%;
+    bottom: 0px;
+    border-radius: 0px;
+    background-color: #ffffff;
+    border-top: solid 1px #dbdbdb;
+    position: fixed;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.message_container{
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+    margin-top: -25px;
+    width: 611px;
+    height: 50px;
+    border: 1px solid #dbdbdb;
+}
+.message_container ::placeholder{
+    text-align: start;
+    outline: none;
+    color: #DBDBDB;
+    border-color: #DBDBDB;
+}
+button{
+    border-color: #ffffff;
+    color: #B2DFFC;
+    text-decoration: none;
+    font-size: 14px;
+}

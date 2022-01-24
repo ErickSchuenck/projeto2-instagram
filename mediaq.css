@@ -1,0 +1,82 @@
+@media (min-width: 616px) {
+    .small_screen{
+        display: none;
+    }
+    .top{
+        width: 100%;
+    }
+    
+}
+@media (max-width: 615px) {
+    
+    .logo{
+        padding-right: 0px;
+        border-right: 1px solid #DBDBDB;
+        margin-left: 1px;
+        justify-content: space-between;
+    }
+    .compass{
+        display: none;
+    }
+    .heart{
+        display: none;
+    }
+    .person{
+        display: none;
+    }
+    .search_bar{
+        display: none;
+    }
+    .arrow{
+        margin: 0px;
+        right: 0px;
+    }
+    .cursive_logo{
+        margin: 0px;
+    }
+    .stories{
+        margin-top: 55px;
+        margin-bottom: 0px;
+        border: none;
+    }
+    .stories ion-icon{
+        display: none;
+    }
+    
+
+
+}
+@media (max-width: 935px) {
+    .logo{
+        margin-left: 0px;
+        border-right: none;
+        padding: 0px 0px 0px 0px;
+    }
+    .top{
+        width: 100vw;
+        
+        display: flex;
+        justify-content: space-around;
+    }
+    .search_bar{
+        margin-left: 0px;
+    }
+    .arrow{
+        margin-left: 0px;
+    }
+    .compass{
+        margin-left: 0px;
+    }
+    .heart{
+        margin-left: 0px;
+    }
+    .person{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    
+    .big_screen{
+        display: none;
+    }
+
+}
